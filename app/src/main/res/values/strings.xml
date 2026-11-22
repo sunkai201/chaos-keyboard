@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chaos Keyboard</string>
+    <string name="ime_name">Chaos Keyboard</string>
+    <string name="subtype_en">English (Chaos)</string>
+
+    <!-- Setup screen -->
+    <string name="setup_title">Chaos Keyboard</string>
+    <string name="setup_subtitle">Key Quota · Blind Mode</string>
+    <string name="setup_status">Reading…</string>
+    <string name="setup_enable">① Enable in Settings</string>
+    <string name="setup_pick">② Switch Keyboard</string>
+    <string name="setup_demo">③ Try Typing</string>
+    <string name="setup_help">Each key has 3 uses. Tap the hint to reload. A failed draw plays a 5s ad. Type, then Send. Hit the Wheel to commit.</string>
+
+    <string name="theme_label">Keyboard Theme</string>
+    <string name="theme_ios">iOS Style</string>
+    <string name="theme_chaos">Chaos Style</string>
+
+    <!-- Status lines -->
+    <string name="status_label">Status: %1$s</string>
+    <string name="status_current">Current: %1$s</string>
+    <string name="status_enabled">Enabled</string>
+    <string name="status_disabled">Not Enabled</string>
+    <string name="status_self">Chaos Keyboard</string>
+    <string name="status_other">Not Chaos Keyboard</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171127"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_title"
+            android:textColor="#FFE2A4"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:paddingTop="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_subtitle"
+            android:textColor="#C4B4C7"
+            android:textSize="14sp"
+            android:paddingTop="6dp"
+            android:paddingBottom="28dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#21163E"
+            android:padding="16dp"
+            android:textColor="#FFE2A4"
+            android:textSize="14sp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/setup_status" />
+
+        <Button
+            android:id="@+id/btn_enable"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#B62C40"
+            android:text="@string/setup_enable"
+            android:textColor="#FFF1AC" />
+
+        <Button
+            android:id="@+id/btn_pick"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#3659B8"
+            android:text="@string/setup_pick"
+            android:textColor="#FFEBBB" />
+
+        <Button
+            android:id="@+id/btn_demo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#405FB9"
+            android:text="@string/setup_demo"
+            android:textColor="#FFF7B5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/theme_label"
+            android:textColor="#FFE2A4"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_theme_ios"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:backgroundTint="#D1D3D9"
+                android:text="@string/theme_ios"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btn_theme_chaos"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:backgroundTint="#382344"
+                android:text="@string/theme_chaos"
+                android:textColor="#FFE2A4" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/setup_help"
+            android:textColor="#9C8FA6"
+            android:textSize="13sp"
+            android:lineSpacingExtra="5dp" />
+    </LinearLayout>
+</ScrollView>
